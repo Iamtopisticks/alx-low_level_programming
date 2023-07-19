@@ -1,18 +1,17 @@
 #include "main.h"
 /**
  * _abs - function to find the absolute value of a number
- * @a: function parameter
- * Return: -a or a;
+ * @r: the value
+ * Description: The standard library provides a similar function
+ *
+ * Return: (0)
+ *
  */
-
-int _abs(int a)
+int _abs(int r)
 {
-	if (a < 0)
-		return (-a);
-	else if (a >= 0)
-	{
-		return (a);
-	}
-	
-	return (0);
+	if (r >= 0)
+
+		return (r);
+	else
+		return (r * -1);
 }
